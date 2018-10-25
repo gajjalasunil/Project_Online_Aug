@@ -61,7 +61,7 @@ public class WebDriver_Testng_Testcase {
   @AfterClass
   public void afterClass() throws Exception 
   {
-	  Thread.sleep(10000);
+	  Thread.sleep(8000);
 	  driver.close();
 	  
   }
