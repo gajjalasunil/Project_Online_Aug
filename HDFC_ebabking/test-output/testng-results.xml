@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[tc001 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc002 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc003 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc004 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc005 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc006 executed]]>
+    </line>
+    <line>
+      <![CDATA[email_validation_completed]]>
+    </line>
+  </reporter-output>
+  <suite name="default" duration-ms="39537" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:30:10Z">
+    <groups>
+    </groups>
+    <test name="firsttest" duration-ms="39537" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:30:10Z">
+      <class name="p2.WebDriver_Testng_Testcase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:p2.WebDriver_Testng_Testcase@66a3ffec]" name="beforeClass" is-config="true" duration-ms="26210" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tc001()[pri:0, instance:p2.WebDriver_Testng_Testcase@66a3ffec]" name="tc001" duration-ms="3124" started-at="2018-10-16T16:29:57Z" finished-at="2018-10-16T16:30:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[email_validation_completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:p2.WebDriver_Testng_Testcase@66a3ffec]" name="afterClass" is-config="true" duration-ms="10070" started-at="2018-10-16T16:30:00Z" finished-at="2018-10-16T16:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- p2.WebDriver_Testng_Testcase -->
+      <class name="p2.MyTest2">
+        <test-method status="PASS" signature="tc004()[pri:0, instance:p2.MyTest2@3e6fa38a]" name="tc004" duration-ms="3" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc005()[pri:0, instance:p2.MyTest2@3e6fa38a]" name="tc005" duration-ms="6" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:p2.MyTest2@3e6fa38a]" name="tc006" duration-ms="8" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc006 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- p2.MyTest2 -->
+      <class name="p1.MyTest1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:p1.MyTest1@47c62251]" name="tc001" duration-ms="19" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc001 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:p1.MyTest1@47c62251]" name="tc002" duration-ms="5" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc002 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:p1.MyTest1@47c62251]" name="tc003" duration-ms="8" started-at="2018-10-16T16:29:31Z" finished-at="2018-10-16T16:29:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc003 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+      </class> <!-- p1.MyTest1 -->
+    </test> <!-- firsttest -->
+  </suite> <!-- default -->
+</testng-results>
