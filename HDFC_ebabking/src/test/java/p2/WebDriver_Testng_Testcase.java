@@ -50,7 +50,7 @@ public class WebDriver_Testng_Testcase {
   @BeforeClass
   public void beforeClass() throws IOException 
   {
-	  System.setProperty("webdriver.chome.driver", "chomedriver.exe");
+	  System.setProperty("webdriver.chome.driver", "C:\\Users\\sunny\\git\\Project_Online_Aug\\HDFC_ebabking\\chomedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.get("http://gmail.com");
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
